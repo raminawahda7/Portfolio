@@ -25,8 +25,8 @@ SECRET_KEY = 'yashw^um4t&c6(mo8y9n7m=_nb2u8@wb1h+fv4*gv)z6g4iezn'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
 
+ALLOWED_HOSTS = ["127.0.0.1","localhost"]
 
 # Application definition
 
@@ -38,11 +38,14 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    'corsheaders',
+
     'portfolioApp',
 
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -51,7 +54,14 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
-
+CORS_ALLOW_CREDENTIALS = True
+CORS_ORIGIN_ALLOW_ALL = True
+# CORS_ORIGIN_WHITELIST = (
+#      'http://localhost:3000', #it needs the comma to ensure this is a tuple
+#  )
+CORS_ORIGIN_WHITELIST = [
+    'https://localhost:3000'
+]
 ROOT_URLCONF = 'portfolioServer.urls'
 
 TEMPLATES = [

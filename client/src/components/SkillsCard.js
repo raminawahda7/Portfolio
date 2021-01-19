@@ -5,12 +5,12 @@ import background from "./plus2.png";
 const SkillsCard = (props) => {
   return (
     <div
-      className="card"
+      className="ui card" 
       style={{
-        backgroundImage: `url(${background})`,
+        // backgroundImage: `url(${background})`,
         // background: "linear-gradient(337deg, rgba(2,0,36,1) 0%, rgba(206,217,201,0.5929892893587605) 7%, rgba(89,98,194,0.7980454691340414) 14%, rgba(220,167,129,1) 36%, rgba(193,223,39,1) 59%, rgba(73,219,157,1) 77%)",
         backgroundSize: "contain",
-        
+        backgroundColor:"#B2E782",
         backgroundRepeat: "no-repeat",
         backgroundPosition:"12px",
         boxShadow: " 0 20px 50px ",

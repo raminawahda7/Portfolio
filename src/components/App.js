@@ -4,7 +4,6 @@ import Header from "./Header";
 import Skills from "./Skills";
 import Projects from "./Projects";
 import Footer from "./Footer";
-import 'semantic-ui-css/semantic.min.css'
 
 const App = () => {
   return (

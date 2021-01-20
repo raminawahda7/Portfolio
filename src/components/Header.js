@@ -3,18 +3,8 @@ import "./header.scss";
 // import PropTypes from 'prop-types'
 // import 'semantic-ui-css/semantic.min.css';
 // import './mysass.scss';
-import $ from "jquery";
 import Modal from "react-bootstrap/Modal";
 import { Button } from "react-bootstrap";
-// const showModal = () => {
-//   return (
-//     <Modal show={true}>
-//       <Modal.Header>Hi</Modal.Header>
-//       <Modal.Body>asdfasdf</Modal.Body>
-//       <Modal.Footer>This is the footer</Modal.Footer>
-//     </Modal>
-//   );
-// };
 const Header = (props) => {
   const [isOpen, setIsOpen] = React.useState(false);
 
@@ -44,23 +34,28 @@ const Header = (props) => {
             <i class="fab fa-facebook fa-2x"></i>
           </a>
           <a
+            
             href="https://drive.google.com/file/d/1s4HSztRNnJt0unRMFLBATAEzUsyxPJbi/view"
             target="_blank"
           >
-            <i class="fas fa-2x">CV</i>
+            <i class="fas aText">CV</i>
           </a>
-          <a href="#" onClick={showModal}>
-            <i class="fas fa-2x">About Me</i>
+          <a  href="#" onClick={showModal}>
+            <i class="fas aText">About Me</i>
+          </a>
+          <a  href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=rami.nawahda@gmail.com&su=SUBJECT&body=BODY&tf=1" target="_blank">
+            {/* <i class="fas fa-envelope-open-text ">CONTACT ME</i> */}
+            <i class="fas  aText">Reach Me Out</i>
           </a>
           <Modal show={isOpen} onHide={hideModal} centered>
             <Modal.Header>
               <Modal.Title>Hi 👋 </Modal.Title>
             </Modal.Header>
-            <Modal.Body>
-              I like building new stuff and work with other people – nothing
+            <Modal.Body style={{fontFamily: "'Times New Roman', Times, serif",fontSize: 19}}>
+              My name is Rami Nawahda. I like building new stuff and work with other people – nothing
               really interesting is ever built alone!
-              <br/>
-              <br/>
+              <br />
+              <br />
               My working philosophies:
               <li>
                 Communication and collaboration with other developers and

@@ -9,7 +9,7 @@ const ProjectCard = (props) => {
     // } else {
       return (
         <a href={props.demo} target="_blank">
-          <i class="fab fa-youtube fa-2x" style={{color:"red", marginLeft: "0.6em" }}></i>
+          <i class="fab fa-youtube fa-2x" style={{ color: "red", marginLeft: "0.6em" }}></i>
         </a>
       );
     }

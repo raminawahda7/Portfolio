@@ -33,7 +33,7 @@ const Projects = () => {
 
   const createProjectCards = () => {
     return (
-      <div className="ui three stackable raised cards">
+      <div className="ui three stackable raised cards" >
         {projectInfo.map((project) => {
           if (!project) {
             return <div>Loading..</div>;
@@ -61,10 +61,12 @@ const Projects = () => {
   return (
     <>
       <section>
+       
         <div
           className="ui center aligned container"
-          style={{ padding: " 9.125em 0 " }}
+          style={{margin: " 9.125em 0 " }}
         >
+           <h1 style={{color:"white"}}>Projects</h1>
           {createProjectCards()}
         </div>
       </section>

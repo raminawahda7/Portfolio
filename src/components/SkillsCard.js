@@ -1,6 +1,6 @@
 import React from "react";
 import SkillsList from "./SkillsList";
-import background from "./plus2.png";
+// import background from "./plus2.png";
 // import 'semantic-ui-css/semantic.min.css'
 const SkillsCard = (props) => {
   return (

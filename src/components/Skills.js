@@ -179,9 +179,10 @@ const Skills = () => {
   return (
     <>
       {/* <h1 className="ui center aligned basic segment" >Skills</h1> */}
+      <h1  style={{color:"white"}}>Skills</h1>
       <div
         className="ui center raised cards"
-        style={{ display: "flex", justifyContent: "center" }}
+        style={{display: "flex", justifyContent: "center" }}
       >
         <SkillsCard skills={frontend} />
         <SkillsCard skills={backend} />

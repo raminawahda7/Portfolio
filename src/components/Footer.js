@@ -4,6 +4,7 @@ export const Footer = () => {
   return (
     <>
       <div
+        id="footer"
         class="ui inverted vertical footer segment"
         style={{ backgroundColor: "white" }}
       >
@@ -27,16 +28,16 @@ export const Footer = () => {
             by Rami Nawahda
           </h4>
           <a href="mailto:rami.nawahda@gmail.com" target="_blank">
-            <i class="mail square icon big" style={{ color: "blue" }}></i>
-          </a>
-          <a href="https://twitter.com/wardal7ayt" target="_blank">
-            <i class="twitter square icon big" style={{ color: "blue" }}></i>
+            <i
+              class="fas fa-envelope-square fa-3x"
+              style={{ margin:"3px", color: "blue" }}
+            ></i>
           </a>
           <a href="https://www.linkedin.com/in/rami-nawahda/" target="_blank">
-            <i class="linkedin square icon big" style={{ color: "blue" }}></i>
+            <i class="fab fa-linkedin fa-3x" style={{ margin:"3px",color: "blue" }}></i>
           </a>
-          <a href="https://wa.link/5jvfet" target="_blank">
-            <i class="phone square icon big" style={{ color: "blue" }}></i>
+          <a href="https://wa.link/5jvfet" target="_blank" >
+            <i class="fas fa-phone-square fa-3x" style={{ margin:"3px",color: "blue" }}></i>
           </a>
         </div>
       </div>

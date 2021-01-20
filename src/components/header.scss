@@ -4,16 +4,16 @@ a {
   text-decoration: none !important;
   color: inherit !important;
 }
-.profile-image {
-  border-radius: 50%;
-  border: .5rem solid #6c63ff;
-  margin-left: auto;
-  width:150px;
-  max-width: 350px;
-  height: auto;
-  box-shadow: 0 30px 30px -30px #000;
-  transition: all .3s ease-out;
-}
+// .profile-image {
+//   border-radius: 50%;
+//   border: .5rem solid #6c63ff;
+//   margin-left: auto;
+//   width:150px;
+//   max-width: 350px;
+//   height: auto;
+//   box-shadow: 0 30px 30px -30px #000;
+//   transition: all .3s ease-out;
+// }
 header {
   margin-bottom: 1em !important;
   background: white !important;
@@ -25,7 +25,7 @@ h1 {
 }
 
 nav {
-  max-width: 800px !important;
+  max-width: 900px !important;
   margin: auto !important;
   display: flex !important;
   flex-wrap: wrap !important;
@@ -36,6 +36,10 @@ nav a {
   text-align: center !important;
   padding: 1em !important;
   position: relative !important;
+}
+.aText{
+  font-size: 1.7em !important;
+  // background-color: red;
 }
 
 nav a::after {

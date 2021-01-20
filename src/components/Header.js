@@ -43,6 +43,10 @@ const Header = (props) => {
           <a  href="#" onClick={showModal}>
             <i class="fas aText">About Me</i>
           </a>
+          <a  href="#footer">
+            {/* <i class="fas fa-envelope-open-text ">CONTACT ME</i> */}
+            <i class="fas  aText">CONTACT</i>
+          </a>
           <a  href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=rami.nawahda@gmail.com&su=SUBJECT&body=BODY&tf=1" target="_blank">
             {/* <i class="fas fa-envelope-open-text ">CONTACT ME</i> */}
             <i class="fas  aText">Reach Me Out</i>

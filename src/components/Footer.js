@@ -45,7 +45,7 @@ export const Footer = () => {
               style={{ margin: "3px", color: "blue" }}
             ></i>
           </a>
-          <h2  style={{ fontSize:"30px",margin: "3px", margin: "3px", color: "black" }}>Get In Touch</h2>
+          <h2  style={{ fontFamily: "'Times New Roman', Times, serif",fontSize:"30px", margin: "3px", color: "black", borderTop:"0.1rem solid grey",borderBottom:"0.1rem solid grey" }}>Get In Touch</h2>
           <a
             href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=rami.nawahda@gmail.com&su=SUBJECT&body=BODY&tf=1"
             target="_blank"

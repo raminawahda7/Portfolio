@@ -47,10 +47,7 @@ const Header = (props) => {
             {/* <i class="fas fa-envelope-open-text ">CONTACT ME</i> */}
             <i class="fas  aText">CONTACT</i>
           </a>
-          <a  href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=rami.nawahda@gmail.com&su=SUBJECT&body=BODY&tf=1" target="_blank">
-            {/* <i class="fas fa-envelope-open-text ">CONTACT ME</i> */}
-            <i class="fas  aText">Reach Me Out</i>
-          </a>
+      
           <Modal show={isOpen} onHide={hideModal} centered>
             <Modal.Header>
               <Modal.Title>Hi 👋 </Modal.Title>

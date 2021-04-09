@@ -35,7 +35,7 @@ const Header = (props) => {
           </a>
           <a
             
-            href="https://drive.google.com/file/d/1s4HSztRNnJt0unRMFLBATAEzUsyxPJbi/view"
+            href="https://drive.google.com/file/d/1XmhagjGzBUV3UnHdpRnJrnry_vk_EgOZ/view"
             target="_blank"
           >
             <i class="fas aText">CV</i>

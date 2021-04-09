@@ -44,7 +44,7 @@ const Header = (props) => {
             <i class="fab fa-facebook fa-2x"></i>
           </a>
           <a
-            href="https://drive.google.com/file/d/1XmhagjGzBUV3UnHdpRnJrnry_vk_EgOZ/view?usp=sharing"
+            href="https://drive.google.com/file/d/1XmhagjGzBUV3UnHdpRnJrnry_vk_EgOZ/view"
             target="_blank"
           >
             <i class="fas fa-2x">CV</i>
